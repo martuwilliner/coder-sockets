@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Gibson Les Paul",
+    "price": 3,
+    "thumbnail": "https://i.imgur.com/qgJ5ZjG.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Fender Stratocaster",
+    "price": 20,
+    "thumbnail": "https://i.imgur.com/qgJ5ZjG.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Agarralapalooza",
+    "price": 10,
+    "thumbnail": "https://i.imgur.com/qgJ5ZjG.jpg"
+  },
+  {
+    "title": "PRS Santana",
+    "price": "500",
+    "thumbnail": "https://i.imgur.com/qgJ5ZjG.jpg",
+    "id": 5
+  },
+  {
+    "title": "Epiphone Riviera",
+    "price": "300.000",
+    "thumbnail": "https://d1aeri3ty3izns.cloudfront.net/media/4/41921/600/preview_1.jpg",
+    "id": 6
+  }
+]
