@@ -4,14 +4,22 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "kn:init": "knex init",
+    "kn:migrate": "knex migrate:make products --env production",
+    "kn:mg": "knex migrate:rollback --all --env production && knex migrate:latest --env production",
+    "kn:db": "knex database:create --env production"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "knex": "^2.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
     "pug": "^3.0.0",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.8"
   }
 }
